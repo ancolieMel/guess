@@ -4,8 +4,56 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f5bf28fac35560dbdb2e597d32df056",
+    "hash": "ec1a5b6b73142dabcdbdbb6fa1e5461a",
     "packages": [
+        {
+            "name": "developathe/crud-bundle",
+            "version": "dev-master",
+            "target-dir": "Developathe/CrudBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/developathe/crud-bundle.git",
+                "reference": "3dcd189a022d8ba76923e9e39a81cba08d77d755"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/developathe/crud-bundle/zipball/3dcd189a022d8ba76923e9e39a81cba08d77d755",
+                "reference": "3dcd189a022d8ba76923e9e39a81cba08d77d755",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.3"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Developathe\\CrudBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-Luc Petit",
+                    "homepage": "http://al.k13.fr"
+                }
+            ],
+            "description": "CRUD Bundle by Dévelopathe",
+            "homepage": "http://developathe.com/",
+            "keywords": [
+                "bootstrap",
+                "bootstrap3",
+                "crud",
+                "scaffolding"
+            ],
+            "time": "2014-06-16 15:45:55"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.1.2",
@@ -1586,9 +1634,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "developathe/crud-bundle": 20
+    },
     "platform": {
         "php": ">=5.3.3"
     },
